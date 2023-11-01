@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy Game</title>
+    <link rel="stylesheet" href="yatzy.css">
+</head>
+<body>
+    <header>
+        <h1>Yatzy Game</h1>
+    </header>
+    <nav>
+        <div2>
+            <label for="player-name">Player Name:</label>
+            <input type="text" id="player-name">
+        </div2>
+        <h2>Score Card</h2>
+    </nav>
+    <section>
+        <article>
+            <div>
+                <table>
+                    <tr>
+                        <th>Dice</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="score" data-category="Number 1"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="score" data-category="Number 2"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="score" data-category="Number 3"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="score" data-category="Number 4"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="score" data-category="Number 5"></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="score" data-category="Number 6"></td>
+                    </tr>
+                    <tr>
+                        <td>Sum</td>
+                        <td class="score" data-category="Number Sum"></td>
+                    </tr>
+                    <tr>
+                        <td>Three of a Kind</td>
+                        <td class="score" data-category="Three of a kind"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Four of a kind</td>
+                        <td class="score" data-category="Four of a kind"></td>
+                    </tr>
+                    <tr>
+                        <td>Full House</td>
+                        <td class="score" data-category="Full House"></td>
+                    </tr>
+                    <tr>
+                        <td>Small straight</td>
+                        <td class="score" data-category="Small straight"></td>
+                    </tr>
+                    <tr>
+                        <td>Large straight</td>
+                        <td class="score" data-category="Large straight"></td>
+                    </tr>
+                    <tr>
+                        <td>Yatzee</td>
+                        <td class="score" data-category="Yatzee"></td>
+                    </tr>
+                    <tr>
+                      <td>Chance</td>
+                      <td class="score" data-category="Chance"></td>
+                  </tr>
+                  <tr>
+                    <td>Total Score</td>
+                    <td class="score" data-category="Total Score"></td>
+                </tr>
+                </table>
+                <div>
+                    <a>
+                        <img id="d1" class="dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-one.png">
+                        <img id="d2" class="dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-two.png">
+                        <img id="d3" class = "dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-three.png">
+                        <img id="d4" class="dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-four.png">
+                        <img id="d5" class="dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-five.png">
+                        <img id="d6" class="dice" src="C:\Users\Buntong Ngy\Downloads\dice\dice-six-faces-six.png">
+                    </a>
+                </div>
+            </div>
+        </article>
+    
+    <div>
+        <div>
+    <button class="center-button" id="roll-button">Roll Dice</button>
+    <button class="re-roll-button">Reroll</button>
+    <button class="end-game-button">End Game</button>
+    
+</div>
+
+    </div></section>
+   
+    <script src="yatzy.js"></script>
+</body>
+</html>

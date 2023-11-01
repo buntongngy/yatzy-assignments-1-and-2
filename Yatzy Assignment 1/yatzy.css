@@ -1,0 +1,145 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+  border: 5px dotted pink;
+  outline: 2px solid green;
+  background-color: green;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: pink;
+}
+
+.selected {
+  border: 2px solid red; 
+}
+
+a {
+  margin-left:600px;
+}
+
+.dice {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-top:2px;
+
+}
+
+
+
+
+
+nav {
+  text-align: left;
+}
+
+section {
+  background-color: aqua;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+table {
+ 
+  border-collapse: collapse;
+}
+
+.score {
+  cursor: pointer;
+}
+
+table, th, td {
+  
+  border: 2px solid pink;
+  background-color: green;
+  padding: 2px;
+  width: 30%;
+  height: 70%;
+  font-size: 20px;
+  color: pink;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div2 {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+}
+
+  label {
+  color: pink;
+  font-size: 15px;
+  background-color: green;
+  padding: 10px;
+  border: 2px solid pink;
+}
+
+
+
+input {
+  background-color:green;
+  color:pink;
+  border: 2px solid pink;
+  padding: 10px;
+
+  
+}
+
+.center-button {
+  padding: 20px;
+  cursor: pointer;
+  color: pink;
+  font-size: 15px;
+  background-color: green;
+  border: 2px solid pink;
+}
+
+.re-roll-button {
+  padding: 20px;
+  cursor: pointer;
+  color: pink;
+  font-size: 15px;
+  background-color: green;
+  border: 2px solid pink;
+}
+
+.end-game-button {
+  padding: 20px;
+  cursor: pointer;
+  color: pink;
+  font-size: 15px;
+  background-color: green;
+  border: 2px solid pink;
+}
+
+
+
+.score {
+  cursor: pointer;
+}
+
+
+
+
+  
