@@ -2,13 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Define dice Image and locate the dice png
     const diceImages = [
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-one.png",
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-two.png",
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-three.png",
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-four.png",
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-five.png",
-        "C:\\Users\\Buntong Ngy\\Downloads\\dice\\dice-six-faces-six.png"
+        "./dice/dice-six-faces-one.png",
+        "./dice/dice-six-faces-two.png",
+        "./dice/dice-six-faces-three.png",
+        "./dice/dice-six-faces-four.png",
+        "./dice/dice-six-faces-five.png",
+        "./dice/dice-six-faces-six.png"
     ];
+    
 
     // Make the score for each catogory equel 0 at the beginning of the game
     const lockedScores = { "Number 1": 0, "Number 2": 0, "Number 3": 0, "Number 4": 0, "Number 5": 0, "Number 6": 0, "Three of a kind": 0, "Four of a kind": 0, "Full House": 0, "Small straight": 0, "Large straight": 0, "Yatzee": 0, "Chance": 0, "Total Score": 0 };
